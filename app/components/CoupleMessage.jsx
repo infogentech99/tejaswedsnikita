@@ -11,7 +11,7 @@ export default function CoupleMessage() {
   return (
     <>
       <div className="bg-[url('/assets/couple_bg.png')] bg-cover bg-no-repeat">
-        <div className="lg:h-520 md:h-450 h-600 pt-2">
+        <div className="lg:h-520 md:h-450 h-565 pt-2">
           <h1 className="lg:text-[40px] md:text-3xl text-[44px] text-center text-[#FFF5B9] lg:pt-30 pt-12 font-parisienne">
             A message from the couple
           </h1>
@@ -145,7 +145,7 @@ export default function CoupleMessage() {
           </div>
           <h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] lg:pt-6 lg:px-60 px-6 lg:mt-0 mt-2 font-cormorant">
             Your presence means the world to us. To make your experience
-            effortless <br /> and enjoyable, we’ve gathered a few useful details
+            effortless <br className="hidden lg:block"/> and enjoyable, we’ve gathered a few useful details
             below.
           </h2>
         </div>
