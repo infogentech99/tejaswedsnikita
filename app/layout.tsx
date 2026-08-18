@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://demo-hindu.netlify.app/"),
+  metadataBase: new URL("https://tejaswedsnikita-alpha.vercel.app/"),
 
   openGraph: {
     title: "Tejas Patel Weds Nikita Patel",
     description: "Join as they begin their forever. 20 & 21 November, 2026",
-    url: "https://demo-hindu.netlify.app/",
+    url: "https://tejaswedsnikita-alpha.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
 
  other: {
-    "og:image:secure_url": "https://demo-hindu.netlify.app/og.jpg",
+    "og:image:secure_url": "https://tejaswedsnikita-alpha.vercel.app/og.jpg",
     "og:image:type": "image/jpeg",
   },
 
