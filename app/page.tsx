@@ -46,7 +46,7 @@ export default function Home() {
 
  {
       title_ceremony: "Carnival",
-      image: "/assets/carnival.png",
+      image: "/assets/carnival.webp",
       date: "Tuesday, November 24th 2026",
       venue: "The Laali Imperial",
       venue_address: <>Old bypass, Nimbhora, MIDC, Badnera Rd, <br /> Amravati, Maharashtra 444605</>,
@@ -57,7 +57,7 @@ export default function Home() {
 
  {
       title_ceremony: "Mandap Ropan",
-      image: "/assets/mandap.png",
+      image: "/assets/mandap.webp",
       date: "Wednesday, November 25th 2026",
       venue: "The Laali Imperial",
       venue_address: <>Old bypass, Nimbhora, MIDC, Badnera Rd, <br /> Amravati, Maharashtra 444605</>,
@@ -68,7 +68,7 @@ export default function Home() {
 
      {
       title_ceremony: "Mamera",
-      image: "/assets/mamera_n.png",
+      image: "/assets/mamera_n.webp",
       date: "Wednesday, November 25th 2026",
       venue: "The Laali Imperial",
       venue_address: <>Old bypass, Nimbhora, MIDC, Badnera Rd, <br /> Amravati, Maharashtra 444605</>,
@@ -79,7 +79,7 @@ export default function Home() {
 
      {
       title_ceremony: "Sangeet",
-      image: "/assets/sangeet.png",
+      image: "/assets/sangeet.webp",
       date: "Wednesday, November 25th 2026",
       venue: "The Laali Imperial",
       venue_address: <>Old bypass, Nimbhora, MIDC, Badnera Rd, <br /> Amravati, Maharashtra 444605</>,
@@ -90,7 +90,7 @@ export default function Home() {
 
      {
       title_ceremony: "Wedding",
-      image: "/assets/shaadi.png",
+      image: "/assets/shaadi.webp",
       date: "Thursday, November 26th 2026",
       venue: "Platinum Hotel & Restaurant Itarsi",
       venue_address: <>Nh-69, Hoshangabad Road, Raisalpur, <br /> NH 69, Madhya Pradesh 461111</>,
@@ -99,7 +99,7 @@ export default function Home() {
     },
     {
       title_ceremony: "Reception",
-      image: "/assets/reception.png",
+      image: "/assets/reception.webp",
      date: "Friday, November 27th 2026",
       venue: "The Laali Imperial",
       venue_address: <>Old bypass, Nimbhora, MIDC, Badnera Rd, <br /> Amravati, Maharashtra 444605</>,
@@ -378,7 +378,7 @@ export default function Home() {
             With <br/> Love From Us
           </h1>
 
-          <h2 className="lg:text-[40px] md:text-xl text-[14px] text-[#00EAFF] lg:pt-12 pt-6  font-eb-garamond md:leading-6 lg:leading-12 leading-5 lg:px-40">
+          <h2 className="lg:text-[40px] md:text-xl text-[14px] text-[#ADBAE7] lg:pt-12 pt-6  font-eb-garamond md:leading-6 lg:leading-12 leading-5 lg:px-40">
             Thank you for being part of our journey. Your presence makes this celebration truly meaningful, and we look forward to sharing these cherished moments with you.
           </h2>
       </div>
