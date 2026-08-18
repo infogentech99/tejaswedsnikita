@@ -403,8 +403,8 @@ export default function Home() {
 
       {/* mobile visible section */}
       <div className="md:hidden bg-[url('/assets/bide_mobilet.jpg')] bg-cover bg-no-repeat">
-        <div className="h-210 flex  justify-center pt-70">
-          <img src="/assets/logo.png" alt="logo" className="w-32 h-28 md:w-40 lg:w-48" />
+        <div className="h-210 flex  justify-center pt-50">
+          <img src="/assets/logo.png" alt="logo" className="w-44 h-40 md:w-40 lg:w-48" />
         </div>
       </div>
 
