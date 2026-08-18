@@ -11,8 +11,8 @@ export default function CoupleMessage() {
   return (
     <>
       <div className="bg-[url('/assets/couple_bg.png')] bg-cover bg-no-repeat">
-        <div className="lg:h-520 md:h-350 h-600 pt-2">
-          <h1 className="lg:text-[40px] md:text-3xl text-[50px] text-center text-[#FFF5B9] lg:pt-30 pt-12 font-Cormorant-upright">
+        <div className="lg:h-520 md:h-450 h-600 pt-2">
+          <h1 className="lg:text-[40px] md:text-3xl text-[44px] text-center text-[#FFF5B9] lg:pt-30 pt-12 font-parisienne">
             A message from the couple
           </h1>
           <h2 className="lg:text-[30px] text-[18px]  text-center text-[#FFF5B9] lg:px-60 px-6 lg:mt-28 mt-12 font-Cormorant-upright lg:leading-8 md:leading-8 leading-6">
@@ -71,6 +71,9 @@ export default function CoupleMessage() {
 
               <SwiperSlide>
                 <img src="/assets/tej4.png" />
+              </SwiperSlide>
+ <SwiperSlide>
+                <img src="/assets/tej1.png" />
               </SwiperSlide>
 
               <SwiperSlide>

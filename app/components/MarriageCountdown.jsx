@@ -51,7 +51,7 @@ export default function MarriageCountdown() {
           </h2>
           <div className="flex flex-col-1 gap-4 justify-center items-center mt-4">
             <a href="https://www.instagram.com/theinvitearc/" target="_blank">
-              <img src="/assets/instagram_w.png" alt="" className="h-14 w-14" />
+              <img src="/assets/instagram_w.png" alt="" className="h-9 md:h-14 w-9 md:w-14" />
             </a>
           </div>
           <p className="lg:text-[24px] text-xl text-[#FFF5B9] mt-6 text-center font-Cormorant-upright">

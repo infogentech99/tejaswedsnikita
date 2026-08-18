@@ -372,13 +372,13 @@ export default function Home() {
           </div>
 
 
-        <div className="lg:h-350 md:h-180 h-86 md:pt-20 pt-30 md:pr-180 pr-40 flex flex-col justify-end items-center text-center md:pb-0 pb-10  ">
+        <div className="lg:h-350 md:h-180 h-86 lg:pt-20 pt-30 lg:pr-180 md:pr-100 pr-40 flex flex-col justify-end items-center text-center md:pb-40 pb-10 lg:pb-0  ">
 
           <h1 className="lg:text-7xl md:text-xl text-xl text-[#E1EF1E] font-parisienne ">
             With <br/> Love From Us
           </h1>
 
-          <h2 className="lg:text-[40px] md:text-2xl text-[14px] text-[#00EAFF] lg:pt-12 pt-6 font-eb-garamond md:leading-12 leading-5 md:px-40">
+          <h2 className="lg:text-[40px] md:text-xl text-[14px] text-[#00EAFF] lg:pt-12 pt-6  font-eb-garamond md:leading-6 lg:leading-12 leading-5 lg:px-40">
             Thank you for being part of our journey. Your presence makes this celebration truly meaningful, and we look forward to sharing these cherished moments with you.
           </h2>
       </div>
