@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "Tejas Patel Weds Nikita Patel",
-    description: "Join as they begin their forever. 20 & 21 November, 2026",
+    description: "Join as they begin their forever. 24, 25, 26 & 27 November, 2026",
     url: "https://tejaswedsnikita-alpha.vercel.app/",
     siteName: "InviteArc",
     images: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Tejas Patel Weds Nikita Patel",
-    description: "Join as they begin their forever. 20 & 21 November, 2026",
+    description: "Join as they begin their forever. 24, 25, 26 & 27 November, 2026",
     images: ["/og.jpg"],
   },
 
