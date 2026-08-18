@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://demo-hindu.netlify.app/"),
 
   openGraph: {
-    title: "Dhiraj Weds Ritika - InviteArc",
-    description: "Premium wedding invitation templates by InviteArc",
+    title: "Tejas Patel Weds Nikita Patel",
+    description: "Join as they begin their forever. 20 & 21 November, 2026",
     url: "https://demo-hindu.netlify.app/",
     siteName: "InviteArc",
     images: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Dhiraj Weds Ritika - InviteArc",
+        alt: "Tejas Patel Weds Nikita Patel",
       },
     ],
     type: "website",
@@ -34,8 +34,8 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Dhiraj Weds Ritika - InviteArc",
-    description: "Premium wedding invitation templates by InviteArc",
+    title: "Tejas Patel Weds Nikita Patel",
+    description: "Join as they begin their forever. 20 & 21 November, 2026",
     images: ["/og.jpg"],
   },
 

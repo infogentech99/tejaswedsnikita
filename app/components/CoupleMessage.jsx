@@ -10,17 +10,14 @@ import "swiper/css/pagination";
 export default function CoupleMessage() {
   return (
     <>
-      <div className="md:bg-[url('/assets/couple_bgt.png')] bg-[url('/assets/couple_bg_mt.png')] bg-cover bg-no-repeat">
-        <div className="lg:h-850 md:h-350 h-680 pt-2">
-          <h1 className="lg:text-[40px] md:text-3xl text-[50px] text-center text-[#FFF5B9] lg:pt-62 pt-12 font-Cormorant-upright">
+      {/* <div className="md:bg-[url('/assets/couple_bgt.png')] bg-[url('/assets/couple_bg_mt.png')] bg-cover bg-no-repeat"> */}
+        <div className="bg-[url('/assets/couple_bg.png')] bg-cover bg-no-repeat">
+        <div className="lg:h-520 md:h-350 h-600 pt-2">
+          <h1 className="lg:text-[40px] md:text-3xl text-[50px] text-center text-[#FFF5B9] lg:pt-30 pt-12 font-Cormorant-upright">
             A message from the couple
           </h1>
           <h2 className="lg:text-[30px] text-[18px]  text-center text-[#FFF5B9] lg:px-60 px-6 lg:mt-28 mt-12 font-Cormorant-upright lg:leading-8 md:leading-8 leading-6">
-            From different traditions to one beautiful journey, join us as we
-            celebrate love, laughter, and forever. This moment wouldn’t be the
-            same without the people we love most. Thank you for your love,
-            blessings, and for making our journey even more special, we’re so
-            excited to celebrate together!
+           For a beautiful journey, join us as we celebrate love, laughter and forever. This moment wouldn't be the same without the people we love the most. Thank you for your love, blessings and for making our journey even more special, we're so excited to celebrate this together!
           </h2>
           <div className="w-full md:mt-32 mt-12">
             <Swiper
@@ -58,35 +55,35 @@ export default function CoupleMessage() {
               className="mySwiper"
             >
               <SwiperSlide>
-                <img src="https://res.cloudinary.com/dx2di0mvx/image/upload/v1773722870/Image1_wvcres.webp" />
+                <img src="/assets/tej1.png" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="https://res.cloudinary.com/dx2di0mvx/image/upload/v1773722874/Image2_fdxmez.png" />
+                <img src="/assets/tej2.png" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="https://res.cloudinary.com/dx2di0mvx/image/upload/v1773723233/Image3_wntz2h.png" />
+                <img src="/assets/tej3.png" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="https://res.cloudinary.com/dx2di0mvx/image/upload/v1773723242/Image4_u4mg9j.webp" />
+                <img src="/assets/tej4.png" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="https://res.cloudinary.com/dx2di0mvx/image/upload/v1773723250/Image5_ziugxm.png" />
+                <img src="/assets/tej5.png" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="https://res.cloudinary.com/dx2di0mvx/image/upload/v1773722874/Image2_fdxmez.png" />
+                <img src="/assets/tej6.png" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="https://res.cloudinary.com/dx2di0mvx/image/upload/v1773723233/Image3_wntz2h.png" />
+                <img src="/assets/tej7.png" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="https://res.cloudinary.com/dx2di0mvx/image/upload/v1773723242/Image4_u4mg9j.webp" />
+                <img src="/assets/tej8.png" />
               </SwiperSlide>
             </Swiper>
           </div>
@@ -94,11 +91,11 @@ export default function CoupleMessage() {
           <h1 className=" lg:text-[100px] text-[60px] md:text-3xl text-center text-[#FFF5B9] lg:pt-32 pt-12 font-Cormorant-upright">
             Things to <br /> know
           </h1>
-          <h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] lg:pt-6 lg:px-60 px-6 lg:mt-4 mt-2 font-cormorant">
+          {/* <h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] lg:pt-6 lg:px-60 px-6 lg:mt-4 mt-2 font-cormorant">
             To help you feel at ease and enjoy every moment of the celebrations,
             we’ve gathered a few thoughtful details we’d love for you to know
             before the big day.
-          </h2>
+          </h2> */}
           <div className="flex justify-center mt-20 pb-24">
             <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-24 gap-10 sm:gap-16">
               <div className="flex flex-col items-center justify-center text-center">
@@ -148,8 +145,10 @@ export default function CoupleMessage() {
               </div>
             </div>
           </div>
-
-          <div className="flex flex-col justify-center items-center lg:mt-20 mt-1 lg:ml-0 ml-24">
+ <h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] lg:pt-6 lg:px-60 px-6 lg:mt-0 mt-2 font-cormorant">
+           Your presence means the world to us. To make your experience effortless <br/> and enjoyable,  we’ve gathered a few useful details below.
+          </h2>
+          {/* <div className="flex flex-col justify-center items-center lg:mt-20 mt-1 lg:ml-0 ml-24">
             <h2 className="lg:text-5xl text-2xl text-center text-[#FFF5B9] lg:pt-72 font-Cormorant-upright pt-40">
               Looking Forward to <br /> Seeing You
             </h2>
@@ -161,7 +160,7 @@ export default function CoupleMessage() {
                 Click the Link to RSVP
               </h2>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

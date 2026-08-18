@@ -2,55 +2,87 @@
 import { useEffect, useState } from "react";
 
 export default function MarriageCountdown() {
-    const TARGET_DATE = new Date("2026-06-09").getTime();
-    const [timeLeft, setTimeLeft] = useState({
-        days: 0,
-        hours: 0,
-        minutes: 0,
-    });
+  const TARGET_DATE = new Date("2026-11-26").getTime();
+  const [timeLeft, setTimeLeft] = useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+  });
 
-    useEffect(() => {
-        const updateCountdown = () => {
-            const now = new Date().getTime();
-            const diff = TARGET_DATE - now;
-            if (diff <= 0) {
-                setTimeLeft({ days: 0, hours: 0, minutes: 0 });
-                return;
-            }
-            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-            const hours = Math.floor(
-                (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-            );
-            const minutes = Math.floor(
-                (diff % (1000 * 60 * 60)) / (1000 * 60)
-            );
+  useEffect(() => {
+    const updateCountdown = () => {
+      const now = new Date().getTime();
+      const diff = TARGET_DATE - now;
+      if (diff <= 0) {
+        setTimeLeft({ days: 0, hours: 0, minutes: 0 });
+        return;
+      }
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+      );
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
 
-            setTimeLeft({ days, hours, minutes });
-        };
+      setTimeLeft({ days, hours, minutes });
+    };
 
-        updateCountdown(); // first run
-        const interval = setInterval(updateCountdown, 60000); // every minute
+    updateCountdown(); // first run
+    const interval = setInterval(updateCountdown, 60000); // every minute
 
-        return () => clearInterval(interval);
-    }, []);
+    return () => clearInterval(interval);
+  }, []);
 
-    return (
-        <>
-            <div className="bg-[url('/assets/countdown_bg.jpg')] bg-cover bg-no-repeat pb-12">
-                <div className="lg:h-110 md:h-100 h-80">
-                    <h2 className="lg:text-[40px] text-4xl text-center text-[#FFF5B9] lg:pt-42 pt-12 font-Cormorant-upright">The countdown begins</h2> 
-                      <h2 className="lg:text-[40px] text-2xl text-center text-[#FFF5B9] font-Cormorant-upright"> {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M</h2>
-                    <p className="lg:text-[22px] text-[20px] text-[#FFF5B9] mt-4 text-center lg:px-100 md:px-25 px-10 font-Cormorant-upright">
-                        Our families are excited that you are able to join us in celebrating what we hope will be one of the happiest days of our lives.
-                    </p>
-                    <div className="flex flex-col-1 gap-4 justify-center items-center mt-4">
-                       <a href="https://www.instagram.com/theinvitearc/" target="_blank"><img src="/assets/instagram_w.png" alt="" className="h-10 w-10"/></a>
-                        
-                    </div>
-                    <p className="lg:text-[16px] text-xl text-[#FFF5B9] mt-6 text-center font-Cormorant-upright">
-                        © <a href="https://invitearc.com/" target="_blank">InviteArc</a> 2026 </p>
-                </div>
+  return (
+    <>
+      {/* <div className="bg-[url('/assets/countdown_bg.jpg')] bg-cover bg-no-repeat pb-12"> */}
+      <div className="md:bg-[url('/assets/countdown_desktop_bg.png')] bg-[url('/assets/countdown_mobile_bg.jpg')] bg-cover bg-no-repeat pb-12 md:pt-0 pt-10 ">
+        <div className="min-h-220 lg:min-h-375 h-80">
+          <h2 className="lg:text-[60px] text-4xl text-center text-[#FFF5B9] lg:pt-42 pt-12 font-parisienne ">
+            The Journey Begins
+          </h2>
+
+          <p className="lg:text-[22px] text-[20px] text-[#FFF5B9] mt-6 text-center lg:px-100 md:px-25 px-10 font-Cormorant-upright">
+           Our families are excited that you are able to join us in celebrating <br/> what we hope will be one of the happiest days of our lives.
+          </p>
+
+          <h2 className="lg:text-[60px] text-2xl text-center text-[#FFF5B9] font-Cormorant-upright">
+            {" "}
+            {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M
+          </h2>
+          <div className="flex flex-col-1 gap-4 justify-center items-center mt-4">
+            <a href="https://www.instagram.com/theinvitearc/" target="_blank">
+              <img src="/assets/instagram_w.png" alt="" className="h-14 w-14" />
+            </a>
+          </div>
+          <p className="lg:text-[24px] text-xl text-[#FFF5B9] mt-6 text-center font-Cormorant-upright">
+            ©{" "}
+            <a href="https://invitearc.com/" target="_blank">
+              InviteArc
+            </a>{" "}
+            2026{" "}
+          </p>
+
+          <div className="flex flex-col justify-center items-center lg:mt-0 mt-1 lg:ml-0 ml-24">
+            <h2 className="lg:text-7xl text-2xl text-center text-[#FFF5B9] lg:pt-72 font-Cormorant-upright pt-40">
+              Awaiting the Pleasure <br />
+              of Your Company
+            </h2>
+            <div className="flex flex-col-1 gap-4 justify-center items-center mt-4 ">
+              <a href="#" target="_blank">
+                <img
+                  src="/assets/whatsapp.png"
+                  alt=""
+                  className="lg:h-10 lg:w-10 h-6 w-6"
+                />
+              </a>
+              <h2 className="lg:text-3xl text-2xl text-center text-[#FFF5B9]  font-Cormorant-upright">
+                Share Your RSVP
+              </h2>
             </div>
-        </>
-    );
-} 8
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+8;
