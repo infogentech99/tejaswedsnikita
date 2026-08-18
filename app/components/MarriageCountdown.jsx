@@ -3,34 +3,57 @@ import { useEffect, useState } from "react";
 
 export default function MarriageCountdown() {
   const TARGET_DATE = new Date("2026-11-26").getTime();
-  const [timeLeft, setTimeLeft] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-  });
+ const [timeLeft, setTimeLeft] = useState({
+  days: 14,
+  hours: 12,
+  minutes: 28,
+  seconds: 0, 
+});
 
-  useEffect(() => {
-    const updateCountdown = () => {
-      const now = new Date().getTime();
-      const diff = TARGET_DATE - now;
-      if (diff <= 0) {
-        setTimeLeft({ days: 0, hours: 0, minutes: 0 });
-        return;
-      }
-      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-      const hours = Math.floor(
-        (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
-      );
-      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+useEffect(() => {
+  const updateCountdown = () => {
+    const now = new Date().getTime();
+    const diff = TARGET_DATE - now;
 
-      setTimeLeft({ days, hours, minutes });
-    };
+    if (diff <= 0) {
+      setTimeLeft({
+        days: 0,
+        hours: 0,
+        minutes: 0,
+        seconds: 0,
+      });
+      return;
+    }
 
-    updateCountdown(); // first run
-    const interval = setInterval(updateCountdown, 60000); // every minute
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
 
-    return () => clearInterval(interval);
-  }, []);
+    const hours = Math.floor(
+      (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+
+    const minutes = Math.floor(
+      (diff % (1000 * 60 * 60)) / (1000 * 60)
+    );
+
+    const seconds = Math.floor(
+      (diff % (1000 * 60)) / 1000
+    );
+
+    setTimeLeft({
+      days,
+      hours,
+      minutes,
+      seconds,
+    });
+  };
+
+  updateCountdown();
+
+  // Update every second
+  const interval = setInterval(updateCountdown, 1000);
+
+  return () => clearInterval(interval);
+}, []);
 
   return (
     <>
@@ -47,7 +70,7 @@ export default function MarriageCountdown() {
 
           <h2 className="lg:text-[60px] text-2xl text-center text-[#FFF5B9] font-Cormorant-upright">
             {" "}
-            {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M
+            {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M {timeLeft.seconds}S
           </h2>
           <div className="flex flex-col-1 gap-4 justify-center items-center mt-4">
             <a href="https://www.instagram.com/theinvitearc/" target="_blank">
