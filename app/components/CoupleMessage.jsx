@@ -93,7 +93,11 @@ export default function CoupleMessage() {
           <h1 className=" lg:text-[100px] text-[60px] md:text-3xl text-center text-[#FFF5B9] lg:pt-32 pt-12 font-parisienne">
             A Guide for <br /> Guests
           </h1>
-
+<h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] lg:pt-6 lg:px-60 px-6 lg:mt-0 mt-2 font-cormorant">
+            Your presence means the world to us. To make your experience
+            effortless <br className="hidden lg:block"/> and enjoyable, we’ve gathered a few useful details
+            below.
+          </h2>
           <div className="flex justify-center mt-20 pb-24">
             <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-24 gap-10 sm:gap-16">
               <div className="flex flex-col items-center justify-center text-center">
@@ -143,11 +147,11 @@ export default function CoupleMessage() {
               </div>
             </div>
           </div>
-          <h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] lg:pt-6 lg:px-60 px-6 lg:mt-0 mt-2 font-cormorant">
+          {/* <h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] lg:pt-6 lg:px-60 px-6 lg:mt-0 mt-2 font-cormorant">
             Your presence means the world to us. To make your experience
             effortless <br className="hidden lg:block"/> and enjoyable, we’ve gathered a few useful details
             below.
-          </h2>
+          </h2> */}
         </div>
       </div>
     </>
