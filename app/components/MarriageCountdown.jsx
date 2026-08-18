@@ -67,7 +67,7 @@ export default function MarriageCountdown() {
               Awaiting the Pleasure <br />
               of Your Company
             </h2>
-            <div className="flex flex-col-1 gap-4 justify-center items-center mt-4 ml-8">
+            <div className="flex flex-col-1 gap-4 justify-center items-center mt-4 md:ml-10 ml-8">
               <a href="https://wa.me/9420188822" target="_blank">
                 <img
                   src="/assets/whatsapp.png"
@@ -80,7 +80,7 @@ export default function MarriageCountdown() {
               </h2>
             </div>
 
-<div className="flex flex-col-1 gap-4 justify-center items-center">
+<div className="flex flex-col-1 gap-4 justify-center items-center mt-3">
               <a href="https://wa.me/9370153277" target="_blank">
                 <img
                   src="/assets/whatsapp.png"

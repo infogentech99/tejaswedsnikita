@@ -68,7 +68,7 @@ export default function Home() {
 
      {
       title_ceremony: "Mamera",
-      image: "/assets/mamera.png",
+      image: "/assets/mamera_n.png",
       date: "Wednesday, November 25th 2026",
       venue: "The Laali Imperial",
       venue_address: <>Old bypass, Nimbhora, MIDC, Badnera Rd, <br /> Amravati, Maharashtra 444605</>,

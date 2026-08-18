@@ -88,8 +88,8 @@ export default function CoupleMessage() {
             </Swiper>
           </div>
 
-          <h1 className=" lg:text-[100px] text-[60px] md:text-3xl text-center text-[#FFF5B9] lg:pt-32 pt-12 font-Cormorant-upright">
-            Things to <br /> know
+          <h1 className=" lg:text-[100px] text-[60px] md:text-3xl text-center text-[#FFF5B9] lg:pt-32 pt-12 font-parisienne">
+             A Guide for <br /> Guests
           </h1>
           {/* <h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] lg:pt-6 lg:px-60 px-6 lg:mt-4 mt-2 font-cormorant">
             To help you feel at ease and enjoy every moment of the celebrations,
