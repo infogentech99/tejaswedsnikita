@@ -61,7 +61,7 @@ export default function Home() {
       date: "Wednesday, November 25th 2026",
       venue: "The Laali Imperial",
       venue_address: <>Old bypass, Nimbhora, MIDC, Badnera Rd, <br /> Amravati, Maharashtra 444605</>,
-      // time: " 3:30 pm onwards",
+      time: " 7:30 pm onwards",
       link: "https://maps.app.goo.gl/M5JXhzABf3duaxNz7?g_st=ic",
     },
 
@@ -72,7 +72,7 @@ export default function Home() {
       date: "Wednesday, November 25th 2026",
       venue: "The Laali Imperial",
       venue_address: <>Old bypass, Nimbhora, MIDC, Badnera Rd, <br /> Amravati, Maharashtra 444605</>,
-      // time: " 3:30 pm onwards",
+      time: " 10:30 pm onwards",
       link: "https://maps.app.goo.gl/M5JXhzABf3duaxNz7?g_st=ic",
     },
 
@@ -312,7 +312,7 @@ export default function Home() {
 
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-              (S/o Mr. Jagdish Patel and Mrs. Hema Patel)
+              (S/o Mrs. Hema Patel and Mr. Jagdish Patel)
             </p>
 
 
@@ -326,7 +326,7 @@ export default function Home() {
             </h2>
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (D/o Mr. Kishor Patel and Mrs. Tripti Patel)
+              (D/o Mrs. Tripti Patel and Mr. Kishor Patel)
             </p>
 
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
@@ -395,7 +395,7 @@ export default function Home() {
       <CoupleMessage />
 
        <div className="hidden md:block bg-[url('/assets/bride1.png')] bg-cover bg-no-repeat bg-center">
-        <div className="lg:h-320 md:h-180 flex pt-80 justify-center">
+        <div className="lg:h-330 md:h-180 flex pt-80 justify-center">
           <img src="/assets/logo.png" alt="logo" className="w-32 h-48 md:w-40 lg:w-60" />
         </div>
       </div>
