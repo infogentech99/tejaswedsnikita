@@ -170,8 +170,8 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
       <div className="
-    bg-[url('/assets/hitched_mobilebg_n5.webp')]
-    md:bg-[url('/assets/hitched_desktopbg5.webp')]  3xl:bg-[url('/assets/hitched_desktopbg4.webp')]
+    bg-[url('/assets/hitched_mobilebgnew.webp')]
+    md:bg-[url('/assets/hitched_desktopbgnew.webp')]  3xl:bg-[url('/assets/hitched_desktopbg4.webp')]
     bg-cover bg-no-repeat bg-top md:bg-center w-full px-4 sm:px-8 overflow-hidden relative">
 
 
