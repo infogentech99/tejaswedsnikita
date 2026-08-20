@@ -72,7 +72,9 @@ export default function CoupleMessage() {
               <SwiperSlide>
                 <img src="/assets/tej4.png" />
               </SwiperSlide>
-
+  <SwiperSlide>
+                <img src="/assets/tej8.png" />
+              </SwiperSlide>
 
               <SwiperSlide>
                 <img src="/assets/tej5.png" />
@@ -85,6 +87,7 @@ export default function CoupleMessage() {
               <SwiperSlide>
                 <img src="/assets/tej7.png" />
               </SwiperSlide>
+             
             </Swiper>
           </div>
 
