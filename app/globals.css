@@ -12,6 +12,7 @@
 
 @theme inline {
   --color-background: var(--background);
+  --breakpoint-3xl: 120rem; /* 1920px */
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);

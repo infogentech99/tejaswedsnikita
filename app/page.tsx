@@ -170,8 +170,8 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
       <div className="
-    bg-[url('/assets/hitched_mobilebg.webp')]
-    md:bg-[url('/assets/hitched_desktopbg.webp')]
+    bg-[url('/assets/hitched_mobilebg7.webp')]
+    md:bg-[url('/assets/hitched_desktopbg5.webp')]  3xl:bg-[url('/assets/hitched_desktopbg4.webp')]
     bg-cover bg-no-repeat bg-top md:bg-center w-full px-4 sm:px-8 overflow-hidden relative">
 
 
@@ -271,7 +271,7 @@ export default function Home() {
             <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Nikita Patel</span>
           </h2>
 
-          <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-200 pt-150">
+          <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-200 pt-150 3xl:pt-280">
             <img
               src="/assets/ganesh_inter.png"
               alt="ganesh"
@@ -326,7 +326,7 @@ export default function Home() {
             </h2>
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (D/o Mrs. Tripti Patel and Mr. Kishor Patel)
+              (D/o Mrs. Trupti Patel and Mr. Kishor Patel)
             </p>
 
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
