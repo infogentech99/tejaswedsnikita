@@ -86,11 +86,11 @@ useEffect(() => {
           </p>
 
           <div className="flex flex-col justify-center items-center lg:ml-0 ml-24">
-            <h2 className="lg:text-7xl text-2xl text-center text-[#FFF5B9] lg:pt-34 font-Cormorant-upright pt-20">
+            <h2 className="lg:text-7xl text-2xl text-center text-[#FFF5B9] lg:pt-20 font-Cormorant-upright pt-20">
               Awaiting the Pleasure <br />
               of Your Company
             </h2>
-            <div className="flex flex-col-1 gap-4 justify-center items-center mt-4 md:ml-10 ml-8">
+            <div className="flex flex-col-1 gap-4 justify-center items-center mt-2 md:ml-10 ml-8">
               <a href="https://wa.me/9420188822" target="_blank">
                 <img
                   src="/assets/whatsapp.png"
@@ -98,12 +98,12 @@ useEffect(() => {
                   className="lg:h-10 lg:w-10 h-6 w-6"
                 />
               </a>
-              <h2 className="lg:text-3xl text-2xl text-center text-[#FFF5B9]  font-Cormorant-upright">
+              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
                 Chetan Patel
               </h2>
             </div>
 
-<div className="flex flex-col-1 gap-4 justify-center items-center mt-3">
+<div className="flex flex-col-1 gap-4 justify-center items-center mt-2 ml-1 md:ml-0">
               <a href="https://wa.me/9370153277" target="_blank">
                 <img
                   src="/assets/whatsapp.png"
@@ -111,8 +111,22 @@ useEffect(() => {
                   className="lg:h-10 lg:w-10 h-6 w-6"
                 />
               </a>
-              <h2 className="lg:text-3xl text-2xl text-center text-[#FFF5B9]  font-Cormorant-upright">
+              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
                 Jitu Patel
+              </h2>
+            </div>
+
+
+              <div className="flex flex-col-1 gap-4 justify-center items-center mt-2 md:ml-10 ml-8">
+              <a href="https://wa.me/9422159028" target="_blank">
+                <img
+                  src="/assets/whatsapp.png"
+                  alt=""
+                  className="lg:h-10 lg:w-10 h-6 w-6"
+                />
+              </a>
+              <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
+                Jagdish Patel
               </h2>
             </div>
 

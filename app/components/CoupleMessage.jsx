@@ -57,10 +57,10 @@ export default function CoupleMessage() {
               modules={[EffectCoverflow, Pagination, Autoplay]}
               className="mySwiper"
             >
-              <SwiperSlide>
+            
+ <SwiperSlide>
                 <img src="/assets/tej1.png" />
               </SwiperSlide>
-
               <SwiperSlide>
                 <img src="/assets/tej2.png" />
               </SwiperSlide>
@@ -72,9 +72,7 @@ export default function CoupleMessage() {
               <SwiperSlide>
                 <img src="/assets/tej4.png" />
               </SwiperSlide>
- <SwiperSlide>
-                <img src="/assets/tej1.png" />
-              </SwiperSlide>
+
 
               <SwiperSlide>
                 <img src="/assets/tej5.png" />

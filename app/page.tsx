@@ -61,7 +61,7 @@ export default function Home() {
       date: "Wednesday, November 25th 2026",
       venue: "The Laali Imperial",
       venue_address: <>Old bypass, Nimbhora, MIDC, Badnera Rd, <br /> Amravati, Maharashtra 444605</>,
-      time: " 7:30 pm onwards",
+      time: " 7:30 am onwards",
       link: "https://maps.app.goo.gl/M5JXhzABf3duaxNz7?g_st=ic",
     },
 
@@ -72,7 +72,7 @@ export default function Home() {
       date: "Wednesday, November 25th 2026",
       venue: "The Laali Imperial",
       venue_address: <>Old bypass, Nimbhora, MIDC, Badnera Rd, <br /> Amravati, Maharashtra 444605</>,
-      time: " 10:30 pm onwards",
+      time: " 10:30 am onwards",
       link: "https://maps.app.goo.gl/M5JXhzABf3duaxNz7?g_st=ic",
     },
 
