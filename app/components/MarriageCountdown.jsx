@@ -90,8 +90,10 @@ useEffect(() => {
               Awaiting the Pleasure <br />
               of Your Company
             </h2>
-            <div className="flex flex-col-1 gap-4 justify-center items-center mt-2 md:ml-10 ml-8">
-              <a href="https://wa.me/9420188822" target="_blank">
+         
+
+               <div className="flex flex-col-1 gap-4 justify-center items-center mt-2 md:ml-10 ml-8">
+              <a href="https://wa.me/9422159028" target="_blank">
                 <img
                   src="/assets/whatsapp.png"
                   alt=""
@@ -99,7 +101,7 @@ useEffect(() => {
                 />
               </a>
               <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
-                Chetan Patel
+                Jagdish Patel
               </h2>
             </div>
 
@@ -116,9 +118,8 @@ useEffect(() => {
               </h2>
             </div>
 
-
-              <div className="flex flex-col-1 gap-4 justify-center items-center mt-2 md:ml-10 ml-8">
-              <a href="https://wa.me/9422159028" target="_blank">
+   <div className="flex flex-col-1 gap-4 justify-center items-center mt-2 md:ml-10 ml-8">
+              <a href="https://wa.me/9420188822" target="_blank">
                 <img
                   src="/assets/whatsapp.png"
                   alt=""
@@ -126,9 +127,10 @@ useEffect(() => {
                 />
               </a>
               <h2 className="lg:text-3xl text-xl text-center text-[#FFF5B9]  font-Cormorant-upright">
-                Jagdish Patel
+                Chetan Patel
               </h2>
             </div>
+           
 
           </div>
 
